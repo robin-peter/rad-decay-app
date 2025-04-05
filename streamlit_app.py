@@ -87,7 +87,7 @@ fig.update_layout(
 
 st.plotly_chart(fig)
 
-### Calculate specific time point
+# Calculate specific time point
 col1, col2, col3 = st.columns(3)
 
 with col1:

@@ -1,8 +1,6 @@
-# 🎈 Blank app template
+# Radioactive Decay and Ingrowth App
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Simple app built to allow users to quickly and easily identify ingrowth of progeny radionuclides over time.
 
 ### How to run it on your own machine
 
@@ -17,3 +15,6 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### How to run it without a local install
+Find out soon?
