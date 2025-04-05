@@ -117,7 +117,7 @@ y1_pct = round(y1 / (y1+y2) * 100, 1)
 y2_pct = round(y2 / (y1+y2) * 100, 1)
 
 # Display the y values at the selected x value
-st.write(f"Activity distribution after {x} d:")
+st.write(f"Activity distribution after {x} {t_unit}:")
 # st.write(f"  Th-227 activity : {y1 :.2f} uCi ({y1_pct :.1f}%)")
 # st.write(f"  Ra-223 activity : {y2 :.2f} uCi ({y2_pct :.1f}%)")
 
