@@ -2,3 +2,5 @@ streamlit
 radioactivedecay
 numpy
 plotly
+pandas
+datetime
