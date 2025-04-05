@@ -81,7 +81,7 @@ if radioisotope == "Th-227 / Ra-223":
 fig.update_layout(
     title=f"{radioisotope} Growth and Decay",
     xaxis_title="Time (d)",
-    yaxis_title="Activity (uCi)",
+    yaxis_title=f"Activity ({A_unit})",
     hovermode="x"
 )
 
