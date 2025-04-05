@@ -126,4 +126,4 @@ y1 = round(y1, 2)
 y2 = round(y2, 2)
 
 st.write(nuc_p+":", y1, A_unit, "(", y1_pct, "%)")
-st.write(nuc_d+":", y1, A_unit, "(", y2_pct, "%)")
+st.write(nuc_d+":", y2, A_unit, "(", y2_pct, "%)")
