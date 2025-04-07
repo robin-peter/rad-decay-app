@@ -118,10 +118,10 @@ if d1 and t:
     x = dt
 
 x = st.number_input(
-    f"Or specify time point manually ({t_unit}):", min_value=0.0, max_value=max_value, step=0.1, value=dt)
+    f"Or specify time point manually ({t_unit}):", min_value=0.0, max_value=None, step=0.1, value=dt)
 
-y1 = np.interp(x, df.index, df[nuc_p])
-y2 = np.interp(x, df.index, df[nuc_d])
+y1 = inv.decay(decay_time=x, units=t_unit).activities(units=A_unit)[nuc_p]
+y2 = inv.decay(decay_time=x, units=t_unit).activities(units=A_unit)[nuc_d]
 
 y1_pct = round(y1 / (y1+y2) * 100, 1)
 y2_pct = round(y2 / (y1+y2) * 100, 1)
@@ -129,8 +129,8 @@ y2_pct = round(y2 / (y1+y2) * 100, 1)
 # Display the calculated values
 st.write(f"Activity distribution after {x} {t_unit}:")
 
-y1 = round(y1, 2)
-y2 = round(y2, 2)
+y1 = round(y1, 3)
+y2 = round(y2, 3)
 
 st.write(nuc_p+":", y1, A_unit, "(", y1_pct, "%)")
 st.write(nuc_d+":", y2, A_unit, "(", y2_pct, "%)")
