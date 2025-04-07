@@ -17,4 +17,4 @@ Simple app built to allow users to quickly and easily identify ingrowth of proge
    ```
 
 ### How to run it without a local install
-Find out soon?
+Open the app here in browser here: https://rad-decay.streamlit.app/
