@@ -26,7 +26,7 @@ def parse_nuclide(chain_str):
 # Title and information
 st.title("Radioactive Decay and Ingrowth")
 st.markdown("""
-    This is a simple program to display and calculate the ingrowth of progeny in radioactive samples. The app uses radioactive decay data from the radioactive decay Python package (https://pypi.org/project/radioactivedecay/), based on ICRP Publication 107. *Currently, only Th-227 / Ra-223 and Ac-225 / Bi-213 are implemented.*
+    This is a simple program to display and calculate the ingrowth of progeny in radioactive samples. The app uses radioactive decay data from the radioactive decay Python package (https://pypi.org/project/radioactivedecay/), based on ICRP Publication 107. *Currently, only a few isotope chains are implemented.*
 
     ### Instructions:
     1. Select the decay series from the dropdown menu.
